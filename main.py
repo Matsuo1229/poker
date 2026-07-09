@@ -331,8 +331,8 @@ async def main():
 
             txt = font.render("Press Space",True,WHITE)
             screen.blit(txt, [300,500])
-#            if key[pygame.K_SPACE] == 1: #ここらに画像はりたい
-             idx = 2
+            if key[pygame.K_SPACE] == 1: #ここらに画像はりたい
+                 idx = 2
 
 #        elif idx == 1:
 #            bg.screen.fill(BLACK)
@@ -367,7 +367,9 @@ async def main():
             idx = 3
 
         elif idx == 3:
-            
+
+            pygame.display.flip()#AIによる追加
+            await asyncio.sleep(0)#AIによる追加
             clock.tick(10)
             await asyncio.sleep(0)
 
