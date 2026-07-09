@@ -300,7 +300,7 @@ async def check(): #カードのイメージの判別と記録
         if number==num[12]:
             gazou="torannpu-illust40.png"
 
-    a.insert(0,gazou)
+    a[i] = gazou
     await asyncio.sleep(0)
 
 
