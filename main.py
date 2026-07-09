@@ -369,7 +369,6 @@ async def main():
         elif idx == 3:
 
             pygame.display.flip()#AIによる追加
-            await asyncio.sleep(0)#AIによる追加
             clock.tick(10)
             await asyncio.sleep(0)
 
