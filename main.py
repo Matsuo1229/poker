@@ -342,6 +342,10 @@ async def main():
         elif idx == 2:
             screen.fill(WHITE)
             await hand()
+
+            for i in range(5):
+                 pygame.transform.scale(a[1])
+            
             illust_1 = pygame.image.load(a[4])
             illust_2 = pygame.image.load(a[3])
             illust_3 = pygame.image.load(a[2])
