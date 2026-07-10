@@ -331,8 +331,8 @@ async def main():
 
             txt = font.render("Press Space",True,WHITE)
             screen.blit(txt, [300,500])
-#            if key[pygame.K_SPACE] == 1: #ここらに画像はりたい
-            if event.type == MOUSEBUTTONDOWN:
+            if key[pygame.K_SPACE] == 1: #ここらに画像はりたい
+  #          if event.type == MOUSEBUTTONDOWN:
                  idx = 2
 
 #        elif idx == 1:
