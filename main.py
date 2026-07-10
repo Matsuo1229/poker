@@ -311,7 +311,7 @@ async def main():
     
     pygame.init()
     pygame.display.set_caption("poker")
-    screen = pygame.display.set_mode((1100,800))
+#    screen = pygame.display.set_mode((1100,800))
     clock = pygame.time.Clock()
     font = pygame.font.Font(None, 80)
 
