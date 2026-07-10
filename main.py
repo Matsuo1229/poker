@@ -327,7 +327,7 @@ async def main():
 
 
         if idx == 0: #タイトル画面
-            screen.fill(WHITE)
+            screen.fill(BLACK)
 
             txt = font.render("Press Space",True,WHITE)
             screen.blit(txt, [300,500])
@@ -364,6 +364,9 @@ async def main():
             screen.blit(illust_3, [450,400])
             screen.blit(illust_4, [650,400])
             screen.blit(illust_5, [850,400])
+
+            await hand()#AIによる追加
+            print(a)
 
             btn_1 = screen.blit
 
